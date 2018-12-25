@@ -23,6 +23,11 @@ public:
 	/** Default + Overloaded constructor.
 	*/
 	Distance(int = 0, float = 0.0);
+	
+	// Use compiler-generated copy constructor, assignment, and destructor.
+	// Distance(const Distance&);
+	// Distance& operator=(const Distance&);
+	// ~Distance();
 
 // OPERATIONS
 	/** function that displays the distance.
